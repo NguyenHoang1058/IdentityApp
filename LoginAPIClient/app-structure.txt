@@ -1,0 +1,11 @@
+src
+|-- app
+|   |-- login
+|   |   |-- login.component.ts|html
+|   |   |-- login-form
+|   |-- shared
+|   |   |-- login.service.ts
+|   |   |-- login.model.ts
+|   |-- app-module.ts
+|-- style.css (global css rule)
+|-- index.html
