@@ -53,7 +53,7 @@ namespace LoginAPI.Controllers
             {
                 return Unauthorized("Please confirm your email");
             }
-
+ 
             //check user password
             var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
             if (!result.Succeeded)
